@@ -1,14 +1,8 @@
 [build]
-  # Your existing build command
   command = "bun run build"
-  
-  # Your static files (like CSS, images) go here
   publish = "assets"
-
-  # The directory for your server function
   functions = "netlify/functions"
 
-# This rewrite rule directs all traffic to your server function
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
