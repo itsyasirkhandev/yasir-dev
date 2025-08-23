@@ -14,7 +14,7 @@
         "description": "",
         "published_at": null
     },
-    "commit": "025ac62ded7074052accd6fa398aa6598033d0bb",
+    "commit": "1526ef82d8f8519cc2b2152752b7b3f6001a1874",
     "files": {
         "components": {
             "HomePage": {
@@ -2142,8 +2142,32 @@
                                 "value": "Ai logo generator website by Yasir Khan website designer and developer in mianwali pakistan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:13shots_so.webp/540"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:13shots_so.webp/540"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             }
                         },
                         "style": {
@@ -3046,8 +3070,32 @@
                                 "value": "Event Planner Website Design By Yasir Khan website designer and developer in mianwali pakistan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:Eventplannerwebsite.webp/540"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:Eventplannerwebsite.webp/540"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             }
                         },
                         "style": {
@@ -3429,8 +3477,32 @@
                                 "value": "Nasir Khan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:portrait-young-man-standing-outdoors_1048944-25282279.webp/128"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:portrait-young-man-standing-outdoors_1048944-25282279.webp/128"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             }
                         },
                         "style": {
@@ -5070,8 +5142,32 @@
                                 "value": "Yasir Khan website designer and developer in mianwali pakistan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:unblurimageai_YasirKhanwebsitedeveloper.webp/1280"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:unblurimageai_YasirKhanwebsitedeveloper.webp/1280"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             }
                         },
                         "style": {
@@ -5176,8 +5272,32 @@
                                 "value": "Cleaning Service Website design by Yasir Khan website designer and developer in mianwali pakistan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:cleaner.webp/540"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:cleaner.webp/540"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             }
                         },
                         "style": {
@@ -5502,8 +5622,32 @@
                                 "value": "Yasir Khan website designer and developer in mianwali pakistan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:unblurimageai_yupp-generated-image-280454-Photoroom.webp/720"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:unblurimageai_yupp-generated-image-280454-Photoroom.webp/720"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             },
                             "fetchpriority": {
                                 "type": "value",
@@ -5542,8 +5686,32 @@
                                 "value": "Ecommerce Website Design by Yasir Khan website designer and developer in mianwali pakistan"
                             },
                             "src": {
-                                "type": "value",
-                                "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:Ecommercewebsite.webp/540"
+                                "name": "@toddle/concatenate",
+                                "type": "function",
+                                "arguments": [
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "https://yasir.toddle.site"
+                                        }
+                                    },
+                                    {
+                                        "name": "0",
+                                        "type": {
+                                            "type": "Array \\| String"
+                                        },
+                                        "formula": {
+                                            "type": "value",
+                                            "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:Ecommercewebsite.webp/540"
+                                        }
+                                    }
+                                ],
+                                "display_name": "Concatenate",
+                                "variableArguments": true
                             }
                         },
                         "style": {
@@ -8431,14 +8599,7 @@
         "actions": {},
         "formulas": {},
         "config": {
-            "meta": {
-                "sitemap": {
-                    "formula": {
-                        "type": "value",
-                        "value": "https://gleeful-puppy-9c1806.netlify.app/sitempa.xml"
-                    }
-                }
-            }
+            "meta": {}
         },
         "packages": {
             "intersection_observer": {
