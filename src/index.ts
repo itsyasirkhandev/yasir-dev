@@ -16,15 +16,12 @@ import { stylesheetHandler } from './routes/stylesheetHandler';
 import { toddlePage } from './routes/toddlePage';
 
 // Inject isEqual on globalThis
-// this is currently used by some builtin formulas
 initIsEqual();
 
 const app = new Hono<HonoEnv>();
 
-// The project data is now bundled directly into the server code
 const project = projectData as { files: ProjectFiles; project: ToddleProject };
 
-// Load the project onto context for other routes
 app.use(async (c, next) => {
   c.set('project', project);
   await next();
@@ -36,7 +33,6 @@ app.get('/manifest.json', manifest);
 app.get('/favicon.ico', favicon);
 app.get('/serviceWorker.js', serviceWorker);
 
-// Nordcraft specific endpoints/services on /.toddle/ subpath 👇
 app.route('/.toddle/fonts', fontRouter);
 app.get('/.toddle/stylesheet/:pageName{.+.css}', stylesheetHandler);
 app.get('/.toddle/custom-code.js', customCode);
@@ -46,7 +42,7 @@ app.all(
 );
 app.get('/.toddle/custom-element/:filename{.+.js}', customElement);
 
-// Treat all other requests as page requests
 app.get('/*', toddlePage);
 
-export default app;
+// This line is changed for maximum compatibility with Netlify
+export default app.fetch;
