@@ -14,7 +14,7 @@
         "description": "",
         "published_at": null
     },
-    "commit": "5476bf7ad75eff8565ebd0986325719e561dcb50",
+    "commit": "188ef223776bc2de36e987abda60f9389e1699ea",
     "files": {
         "components": {
             "HomePage": {
@@ -7094,65 +7094,7 @@
                                                 },
                                                 "formula": {
                                                     "type": "value",
-                                                    "value": "https://"
-                                                }
-                                            },
-                                            {
-                                                "name": "0",
-                                                "type": {
-                                                    "type": "Array \\| String"
-                                                },
-                                                "formula": {
-                                                    "name": "@toddle/get",
-                                                    "type": "function",
-                                                    "arguments": [
-                                                        {
-                                                            "name": "Object",
-                                                            "type": {
-                                                                "type": "Array \\| Object \\| String"
-                                                            },
-                                                            "formula": {
-                                                                "name": "@toddle/parseURL",
-                                                                "type": "function",
-                                                                "arguments": [
-                                                                    {
-                                                                        "name": "URL",
-                                                                        "type": {
-                                                                            "type": "String"
-                                                                        },
-                                                                        "formula": {
-                                                                            "name": "@toddle/currentURL",
-                                                                            "type": "function",
-                                                                            "arguments": [],
-                                                                            "display_name": "Current URL"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "name": "Base",
-                                                                        "type": {
-                                                                            "type": "String"
-                                                                        },
-                                                                        "formula": {
-                                                                            "type": "value",
-                                                                            "value": null
-                                                                        }
-                                                                    }
-                                                                ],
-                                                                "display_name": "Parse URL"
-                                                            }
-                                                        },
-                                                        {
-                                                            "name": "Path",
-                                                            "type": {
-                                                                "type": "Array<String> \\| Number \\| String"
-                                                            },
-                                                            "formula": {
-                                                                "type": "value",
-                                                                "value": "hostname"
-                                                            }
-                                                        }
-                                                    ],
-                                                    "display_name": "Get"
+                                                    "value": "https://yasir.toddle.site"
                                                 }
                                             },
                                             {
@@ -7198,65 +7140,7 @@
                                                 },
                                                 "formula": {
                                                     "type": "value",
-                                                    "value": "https://"
-                                                }
-                                            },
-                                            {
-                                                "name": "0",
-                                                "type": {
-                                                    "type": "Array \\| String"
-                                                },
-                                                "formula": {
-                                                    "name": "@toddle/get",
-                                                    "type": "function",
-                                                    "arguments": [
-                                                        {
-                                                            "name": "Object",
-                                                            "type": {
-                                                                "type": "Array \\| Object \\| String"
-                                                            },
-                                                            "formula": {
-                                                                "name": "@toddle/parseURL",
-                                                                "type": "function",
-                                                                "arguments": [
-                                                                    {
-                                                                        "name": "URL",
-                                                                        "type": {
-                                                                            "type": "String"
-                                                                        },
-                                                                        "formula": {
-                                                                            "name": "@toddle/currentURL",
-                                                                            "type": "function",
-                                                                            "arguments": [],
-                                                                            "display_name": "Current URL"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "name": "Base",
-                                                                        "type": {
-                                                                            "type": "String"
-                                                                        },
-                                                                        "formula": {
-                                                                            "type": "value",
-                                                                            "value": null
-                                                                        }
-                                                                    }
-                                                                ],
-                                                                "display_name": "Parse URL"
-                                                            }
-                                                        },
-                                                        {
-                                                            "name": "Path",
-                                                            "type": {
-                                                                "type": "Array<String> \\| Number \\| String"
-                                                            },
-                                                            "formula": {
-                                                                "type": "value",
-                                                                "value": "hostname"
-                                                            }
-                                                        }
-                                                    ],
-                                                    "display_name": "Get"
+                                                    "value": "https://yasir.toddle.site"
                                                 }
                                             },
                                             {
@@ -7369,8 +7253,32 @@
                                         "value": "preload"
                                     },
                                     "href": {
-                                        "type": "value",
-                                        "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:unblurimageai_yupp-generated-image-280454-Photoroom.webp/720"
+                                        "name": "@toddle/concatenate",
+                                        "type": "function",
+                                        "arguments": [
+                                            {
+                                                "name": "0",
+                                                "type": {
+                                                    "type": "Array \\| String"
+                                                },
+                                                "formula": {
+                                                    "type": "value",
+                                                    "value": "https://yasir.toddle.site"
+                                                }
+                                            },
+                                            {
+                                                "name": "0",
+                                                "type": {
+                                                    "type": "Array \\| String"
+                                                },
+                                                "formula": {
+                                                    "type": "value",
+                                                    "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:unblurimageai_yupp-generated-image-280454-Photoroom.webp/720"
+                                                }
+                                            }
+                                        ],
+                                        "display_name": "Concatenate",
+                                        "variableArguments": true
                                     },
                                     "type": {
                                         "type": "value",
@@ -7383,46 +7291,6 @@
                                 },
                                 "content": null
                             },
-                            "85BTKOisU73c-g5kf8ER1": {
-                                "tag": "link",
-                                "attrs": {
-                                    "rel": {
-                                        "type": "value",
-                                        "value": "icon"
-                                    },
-                                    "href": {
-                                        "type": "value",
-                                        "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:favicon-16x16.png/full"
-                                    },
-                                    "size": {
-                                        "type": "value",
-                                        "value": "16x16"
-                                    },
-                                    "type": {
-                                        "type": "value",
-                                        "value": "image/png"
-                                    }
-                                },
-                                "content": null
-                            },
-                            "LXYNrNsvWz98YgL5NUg8Z": {
-                                "tag": "link",
-                                "attrs": {
-                                    "rel": {
-                                        "type": "value",
-                                        "value": "apple-touch-icon"
-                                    },
-                                    "href": {
-                                        "type": "value",
-                                        "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:apple-touch-icon.png/full"
-                                    },
-                                    "size": {
-                                        "type": "value",
-                                        "value": "180x180"
-                                    }
-                                },
-                                "content": null
-                            },
                             "VeUjuJsgLPi5KVyorNRQx": {
                                 "tag": "style",
                                 "attrs": {},
@@ -7430,28 +7298,6 @@
                                     "type": "value",
                                     "value": ".sr-only {   position: absolute;   width: 1px;   height: 1px;   padding: 0;   margin: -1px;   overflow: hidden;   clip: rect(0, 0, 0, 0);   white-space: nowrap;   border-width: 0; }html{font-display: swap;}"
                                 }
-                            },
-                            "zeR2Dysm_FTVXl1uq7dhK": {
-                                "tag": "link",
-                                "attrs": {
-                                    "rel": {
-                                        "type": "value",
-                                        "value": "icon"
-                                    },
-                                    "href": {
-                                        "type": "value",
-                                        "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:favicon-32x32.png/full"
-                                    },
-                                    "size": {
-                                        "type": "value",
-                                        "value": "32x32"
-                                    },
-                                    "type": {
-                                        "type": "value",
-                                        "value": "image/png"
-                                    }
-                                },
-                                "content": null
                             }
                         },
                         "title": {
@@ -9934,7 +9780,14 @@
         "actions": {},
         "formulas": {},
         "config": {
-            "meta": {}
+            "meta": {
+                "icon": {
+                    "formula": {
+                        "type": "value",
+                        "value": "/cdn-cgi/imagedelivery/ZIty0Vhmkm0nD-fBKJrTZQ/yasir:favicon-32x32(2).png/16"
+                    }
+                }
+            }
         },
         "packages": {
             "intersection_observer": {
